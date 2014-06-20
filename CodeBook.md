@@ -28,4 +28,4 @@ tBodyGyroJerkMean
 subject_test.txt: contains the subject ID. It is numeric of length 1.
 y_test.txt: contains the activity ID. It is numeric of length 1
 features.txt: contains the list of features that have been recorded. each variable is recorded in 3 dimensions (X, Y and Z)
-The output dataset is a tidy dataset that has the subject ID, activity label and the average of each variable for each activity and each subject. Each column of the Dataset has appropriate Label.
+The output dataset is a tidy dataset that has the subject ID, activity label and the average of the mean and std of each variable for each activity and each subject. Each column of the Dataset has appropriate Label.
